@@ -1,5 +1,11 @@
 {
     "Index": {
-      "title": "Vachiravit Doungdee!"
+      "name": "Vachiravit Doungdee"
+    },
+    "Nav" : {
+      "about": "About me",
+      "project" : "Project",
+      "Contact" : "Contact"
     }
+    
   }

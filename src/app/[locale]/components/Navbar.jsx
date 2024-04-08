@@ -3,25 +3,31 @@ import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 
-export default function Navbar2() {
-  const t = useTranslations("Index");
+export default function Navbar() {
+  const Index = useTranslations("Index");
+  const Nav = useTranslations("Nav");
 
   return (
     <nav className="bg-gray-800">
     <div className="container mx-auto px-4 py-2 flex justify-between items-center">
       <Link href="/" className="text-white text-xl font-bold">
-        {t("title")}
+        {Index("name")}
       </Link>
 
       <ul className="hidden md:flex space-x-4">
-        <li>
-          <Link href="/" className="text-white hover:text-gray-300">
-            {t("Home")}
+      <li>
+          <Link href="#about" className="text-white hover:text-gray-300">
+            {Nav("about")}
           </Link>
         </li>
         <li>
-          <Link href="/about" className="text-white hover:text-gray-300">
-            {t("About")}
+          <Link href="#projects" className="text-white hover:text-gray-300">
+            {Nav("project")}
+          </Link>
+        </li>
+        <li>
+          <Link href="#contact" className="text-white hover:text-gray-300">
+            {Nav("contact")}
           </Link>
         </li>
         {/* Add more navigation links here */}

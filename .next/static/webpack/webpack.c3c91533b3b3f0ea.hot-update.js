@@ -7,19 +7,12 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-exports.id = "_rsc_messages_th_json";
-exports.ids = ["_rsc_messages_th_json"];
-exports.modules = {
-
-/***/ "(rsc)/./messages/th.json":
-/*!**************************!*\
-  !*** ./messages/th.json ***!
-  \**************************/
-/***/ ((module) => {
-
-module.exports = JSON.parse('{"Index":{"name":"วชิรวิทย์ ดวงดี"},"Nav":{"about":"เกี่ยวกับฉัน","project":"ผลงาน","contact":"ติดต่อ"}}');
-
-/***/ })
-
-};
-;
+self["webpackHotUpdate_N_E"]("webpack",{},
+/******/ function(__webpack_require__) { // webpackRuntimeModules
+/******/ /* webpack/runtime/getFullHash */
+/******/ !function() {
+/******/ 	__webpack_require__.h = function() { return "5bfd2821952094fc"; }
+/******/ }();
+/******/ 
+/******/ }
+);
