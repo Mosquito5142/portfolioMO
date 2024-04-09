@@ -26,9 +26,10 @@
     "education2":"Secondary Education: Thanyarat School",
     "education3":"Certificate of Vocational Education (C.V.E.): Thanyaburi Technical College Major: Business Computer",
     "education4":"Diploma of Vocational Education (C.V.E.): Thanyaburi Technical College  Major: Business Computer",
-    "education5":"Bachelor's Degree: Rajamangala University of Technology Thanyaburi  Major: Business Computer"
-
-
-    
+    "education5":"Bachelor's Degree: Rajamangala University of Technology Thanyaburi  Major: Business Computer" 
+  },
+  "Imagetext":{
+    "image1":"E commerce"
   }
+
 }
