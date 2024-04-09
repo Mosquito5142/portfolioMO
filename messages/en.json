@@ -1,11 +1,17 @@
 {
-    "Index": {
-      "name": "Vachiravit Doungdee"
-    },
-    "Nav" : {
-      "about": "About me",
-      "project" : "Project",
-      "Contact" : "Contact"
-    }
-    
+  "Index": {
+    "name": "Vachirawit Duangdee"
+  },
+  "Nav": {
+    "about": "About Me",
+    "project": "Projects",
+    "contact": "Contact"
+  },
+  "HeroSection": {
+    "Hello": "Hello, I'm",
+    "name": "Vachirawit Duangdee",
+    "nickname": "Nickname Mos",
+    "webdeveloper": "Web Developer",
+    "mobiledeveloper": "Mobile App Developer"
   }
+}

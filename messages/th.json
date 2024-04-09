@@ -6,6 +6,13 @@
     "about": "เกี่ยวกับฉัน",
     "project" : "ผลงาน",
     "contact" : "ติดต่อ"
+  },
+  "HeroSection" : {
+    "Hello" : "สวัสดี ผม",
+    "name": "วชิรวิทย์ ดวงดี",
+    "nickname": "ชื่อเล่น มอส",
+    "webdeveloper": "นักพัฒนาเว็บไซต์",
+    "mobiledeveloper": "นักพัฒนาแอปพลิเคชัน"
   }
   
 }
