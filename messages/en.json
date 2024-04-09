@@ -16,5 +16,19 @@
     "description" : "I am pleased to present my professional website, which serves as a comprehensive portfolio and a platform to share my personal information.",
     "github" : "Github",
     "resume" : "resume"
+  },
+  "AboutSection":{
+    "aboutMe": "AboutMe",
+    "description" : "I'm a passionate web developer driven by the thrill of crafting innovative applications and websites.  With a toolbox overflowing with technologies like JavaScript, React, Node.js, PHP, HTML, CSS, and Github, I bring ideas to life with code.  A lifelong learner with a knack for problem-solving, I'm constantly seeking new ways to expand my knowledge and refine my skills.  Currently, I'm fueling my development journey at Rajamangala University of Technology Thanyaburi, and I've proudly fulfilled my military service.",
+    "skills" : "skills",
+    "education" : "education",
+    "education1":"Primary Education: Wat Ratsattha Ram School",
+    "education2":"Secondary Education: Thanyarat School",
+    "education3":"Certificate of Vocational Education (C.V.E.): Thanyaburi Technical College Major: Business Computer",
+    "education4":"Diploma of Vocational Education (C.V.E.): Thanyaburi Technical College  Major: Business Computer",
+    "education5":"Bachelor's Degree: Rajamangala University of Technology Thanyaburi  Major: Business Computer"
+
+
+    
   }
 }
