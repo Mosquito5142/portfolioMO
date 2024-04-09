@@ -7,9 +7,14 @@ export default function HeroSection() {
         name = HeroSection('name'),
         nickname = HeroSection('nickname'),
         webdeveloper = HeroSection('webdeveloper'),
-        mobiledeveloper = HeroSection('mobiledeveloper')
+        mobiledeveloper = HeroSection('mobiledeveloper'),
+        description = HeroSection('description'),
+        github = HeroSection("github"),
+        resume = HeroSection("resume")
 
   return (
-    <HeroSection2 Hello={Hello} name={name} nickname={nickname} webdeveloper={webdeveloper} mobiledeveloper={mobiledeveloper}/> // Pass translated title as prop
+    <HeroSection2 Hello={Hello} name={name} nickname={nickname} webdeveloper={webdeveloper} 
+    mobiledeveloper={mobiledeveloper} description={description} github={github} resume={resume}
+    /> // Pass translated title as prop
   );
 }

@@ -12,6 +12,9 @@
     "name": "Vachirawit Duangdee",
     "nickname": "Nickname Mos",
     "webdeveloper": "Web Developer",
-    "mobiledeveloper": "Mobile App Developer"
+    "mobiledeveloper": "Mobile App Developer",
+    "description" : "I am pleased to present my professional website, which serves as a comprehensive portfolio and a platform to share my personal information.",
+    "github" : "Github",
+    "resume" : "resume"
   }
 }
