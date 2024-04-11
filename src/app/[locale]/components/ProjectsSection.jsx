@@ -4,64 +4,65 @@ import ProjectCard from "./ProjectCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
-const projectsData = [
-  {
-    id: 1,
-    title: "Portfolio Website",
-    description: "Portfolio website uses next.js for development.",
-    image: "/images/projects/1.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 2,
-    title: "Storylifestone E-commerce ",
-    description: "E-commerce website uses php for development.",
-    image: "/images/projects/StorylifestoneIndex.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/Mosquito5142/Storylifestone-E-commerce-PHP",
-    previewUrl: "http://obgiftshop.onlinewebshop.net/",
-  },
-  {
-    id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-];
+const ProjectsSection = (props) => {
 
-const ProjectsSection = () => {
+  const projectsData = [
+    {
+      id: 1,
+      title: props.web1,
+      description: props.web1discription,
+      image: "/images/projects/1.png",
+      tag: ["All", "Web"],
+      gitUrl: "/",
+      previewUrl: "/",
+    },
+    {
+      id: 2,
+      title: props.web2,
+      description: props.web2discription,
+      image: "/images/projects/StorylifestoneIndex.png",
+      tag: ["All", "Web"],
+      gitUrl: "https://github.com/Mosquito5142/Storylifestone-E-commerce-PHP",
+      previewUrl: "http://obgiftshop.onlinewebshop.net/",
+    },
+    {
+      id: 3,
+      title: "E-commerce Application",
+      description: "Project 3 description",
+      image: "/images/projects/3.png",
+      tag: ["All", "Web"],
+      gitUrl: "/",
+      previewUrl: "/",
+    },
+    {
+      id: 4,
+      title: "Food Ordering Application",
+      description: "Project 4 description",
+      image: "/images/projects/4.png",
+      tag: ["All", "Mobile"],
+      gitUrl: "/",
+      previewUrl: "/",
+    },
+    {
+      id: 5,
+      title: "React Firebase Template",
+      description: "Authentication and CRUD operations",
+      image: "/images/projects/5.png",
+      tag: ["All", "Web"],
+      gitUrl: "/",
+      previewUrl: "/",
+    },
+    {
+      id: 6,
+      title: "Full-stack Roadmap",
+      description: "Project 5 description",
+      image: "/images/projects/6.png",
+      tag: ["All", "Web"],
+      gitUrl: "/",
+      previewUrl: "/",
+    },
+  ];
+
   const [tag, setTag] = useState("All");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
@@ -82,22 +83,25 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+        {props.myprojects}
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
-          name="All"
+          name={'All'}
+          namemenu={props.all}
           isSelected={tag === "All"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
+          name={'Web'}
+          namemenu={props.web}
           isSelected={tag === "Web"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
+          name={'Mobile'}
+          namemenu={props.mobile}
           isSelected={tag === "Mobile"}
         />
       </div>

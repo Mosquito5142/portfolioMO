@@ -28,8 +28,24 @@
     "education4":"Diploma of Vocational Education (C.V.E.): Thanyaburi Technical College  Major: Business Computer",
     "education5":"Bachelor's Degree: Rajamangala University of Technology Thanyaburi  Major: Business Computer" 
   },
-  "Imagetext":{
-    "image1":"E commerce"
+  "Myprojects":{
+    "myprojects":"My Projects",
+    "all":"All",
+    "web":"Website",
+    "mobile":"Mobile App",
+    "web1":"Portfolio Website",
+    "web1discription":"Portfolio website developed with Next.js",
+    "web2":"Storylifestone E-commerce",
+    "web2discription":"E-commerce website developed with PHP",
+    "web3":"",
+    "web3discription":"",
+    "web4":"",
+    "web4discription":"",
+    "web5":"",
+    "web5discription":"",
+    "web6":"",
+    "web6discription":""
+
   }
 
 }
