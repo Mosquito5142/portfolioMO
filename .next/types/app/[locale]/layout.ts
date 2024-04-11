@@ -1,4 +1,4 @@
-// File: /home/test/Desktop/ProjectCode/portfolioMO/src/app/[locale]/layout.js
+// File: /Users/admin/Desktop/portfolioMO/src/app/[locale]/layout.js
 import * as entry from '../../../../src/app/[locale]/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
