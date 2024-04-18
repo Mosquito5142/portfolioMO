@@ -19,8 +19,8 @@ const Navbar = (props) => {
       path: "#projects",
     },
     {
-      title: props.contact,
-      path: "#contact",
+      title: props.Certificate,
+      path: "#Certificate",
     },
   ];
 

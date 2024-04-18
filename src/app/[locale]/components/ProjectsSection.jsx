@@ -11,7 +11,7 @@ const ProjectsSection = (props) => {
       id: 1,
       title: props.web1,
       description: props.web1discription,
-      image: "/images/projects/1.png",
+      image: "/images/projects/portfolioMO.png",
       tag: ["All", "Web"],
       gitUrl: "/",
       previewUrl: "/",

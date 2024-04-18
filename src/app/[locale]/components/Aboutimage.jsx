@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from "next/image";
-import { cardDetails } from "./carousel-config";
+import { cardDetails } from "./Carousel-config";
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import withAutoplay from 'react-awesome-slider/dist/autoplay'
