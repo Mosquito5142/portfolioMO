@@ -6,11 +6,11 @@ export default function CertificateImage() {
   return (
     <div className="max-w-screen-lg mx-auto p-2">
       <AwesomeSlider animation="cubeAnimation" className="h-screen">
-        <div data-src="/images/certficate-img/สื่อ.jpeg" />
-        <div data-src="/images/certficate-img/สื่อ2.jpeg" />
-        <div data-src="/images/certficate-img/สื่อ3.jpeg" />
-        <div data-src="/images/certficate-img/สื่อ4.jpeg" />
-        <div data-src="/images/certficate-img/สื่อ5.jpeg" />
+        <div data-src="/images/certficate-img/สื่อ.jpeg" className="h-screen" />
+        <div data-src="/images/certficate-img/สื่อ2.jpeg" className="h-screen" />
+        <div data-src="/images/certficate-img/สื่อ3.jpeg" className="h-screen" />
+        <div data-src="/images/certficate-img/สื่อ4.jpeg" className="h-screen" />
+        <div data-src="/images/certficate-img/สื่อ5.jpeg" className="h-screen" />
       </AwesomeSlider>
     </div>
   );
