@@ -42,7 +42,7 @@ const HeroSection2 = (props) => {
           </p>
           <div>
             <Link
-              href="/#contact"
+              href="https://github.com/Mosquito5142" target="_blank"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-700 to-purple-600 hover:bg-slate-600 text-white"
             >
               {props.github}

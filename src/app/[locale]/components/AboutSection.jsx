@@ -14,10 +14,11 @@ const AboutSection = (props) => {
         <ul className="list-disc pl-2">
           <li>Node.js</li>
           <li>Express</li>
-          <li>PostgreSQL</li>
-          <li>Sequelize</li>
+          <li>SQL</li>
+          <li>MongoDB</li>
           <li>JavaScript</li>
           <li>React</li>
+          <li>Next.js</li>
         </ul>
       ),
     },
