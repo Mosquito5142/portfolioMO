@@ -1,6 +1,5 @@
 export const cardDetails = [  // Array for maintainability
   {
-    imgUrl: "/images/about/1634816161115.jpg",
-    title: "การแข่งขันสร้างเว็บไซต์ระดับภูมิภาค"
+    imgUrl: "/images/about/1634816161115.jpg"
   }
 ];
