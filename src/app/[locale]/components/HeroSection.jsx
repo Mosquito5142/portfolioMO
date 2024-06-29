@@ -48,7 +48,7 @@ const HeroSection2 = (props) => {
               {props.github}
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1QThHD9wN_pwDeQMvfG05rzB6AT4EdCwl/view?usp=sharing" target="_blank"
+              href="https://www.canva.com/design/DAFuT1vWzCI/fkf1Sr_jsSF6jUzPeL9JdA/view?utm_content=DAFuT1vWzCI&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-700 to-purple-600 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
