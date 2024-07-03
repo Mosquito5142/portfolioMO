@@ -24,6 +24,15 @@ const ProjectsSection = (props) => {
       tag: ["All", "Web"],
       gitUrl: "https://github.com/Mosquito5142/Storylifestone-E-commerce-PHP",
       previewUrl: "http://obgiftshop.onlinewebshop.net/",
+    },
+    {
+      id: 3,
+      title: props.web3,
+      description: props.web3discription,
+      image: "/images/projects/StorylifestoneIndex.png",
+      tag: ["All", "Web"],
+      gitUrl: "https://github.com/Mosquito5142/Blogreact",
+      previewUrl: "https://vachiravitblog-iota.vercel.app/",
     }
   ];
 
