@@ -21,7 +21,7 @@ export default function Home() {
       <HeroSectionT Hello={HeroSection('Hello')} name={HeroSection('name')} nickname={HeroSection('nickname')} webdeveloper={HeroSection('webdeveloper')} 
     mobiledeveloper={HeroSection('mobiledeveloper')} description={HeroSection('description')} github={HeroSection('github')} resume={HeroSection('resume')}/>
         <AboutSection about={About('aboutMe')} description={About('description')} skills={About('skills')} education={About('education')} education1={About('education1')} education2={About('education2')} education3={About('education3')} education4={About('education4')} education5={About('education5')} />
-        <ProjectsSection myprojects={Myprojects('myprojects')} all={Myprojects('all')} web={Myprojects('web')} mobile={Myprojects('mobile')} web1={Myprojects('web1')} web1discription={Myprojects('web1discription')} web2={Myprojects('web2')} web2discription={Myprojects('web2discription')}
+        <ProjectsSection myprojects={Myprojects('myprojects')} all={Myprojects('all')} web={Myprojects('web')} mobile={Myprojects('mobile')} web1={Myprojects('web1')} web1discription={Myprojects('web1discription')} web2={Myprojects('web2')} web2discription={Myprojects('web2discription') web3={Myprojects('web3')} web2discription={Myprojects('web3discription')}
           />
           <Certificate/>
       </div>
