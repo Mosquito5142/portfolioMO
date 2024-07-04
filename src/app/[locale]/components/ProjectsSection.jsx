@@ -29,7 +29,7 @@ const ProjectsSection = (props) => {
       id: 3,
       title: props.web3,
       description: props.web3discription,
-      image: "/images/projects/StorylifestoneIndex.png",
+      image: "/images/projects/VachiravitBlog.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/Mosquito5142/Blogreact",
       previewUrl: "https://vachiravitblog-iota.vercel.app/",
