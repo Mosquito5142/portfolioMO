@@ -33,6 +33,15 @@ const ProjectsSection = (props) => {
       tag: ["All", "Web"],
       gitUrl: "https://github.com/Mosquito5142/Blogreact",
       previewUrl: "https://vachiravitblog-iota.vercel.app/",
+    },
+    {
+      id: 4,
+      title: props.web4,
+      description: props.web4discription,
+      image: "/images/projects/coffeeAPP.jpg",
+      tag: ["All", "Web"],
+      gitUrl: "https://github.com/Mosquito5142/Blogreact",
+      previewUrl: "https://vachiravitblog-iota.vercel.app/",
     }
   ];
 

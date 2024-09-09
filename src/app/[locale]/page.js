@@ -51,6 +51,8 @@ export default function Home() {
           web2discription={Myprojects('web2discription')}
           web3={Myprojects('web3')}
           web3discription={Myprojects('web3discription')}
+          web4={Myprojects('web4')}
+          web4discription={Myprojects('web4discription')}
         />
         <Certificate />
       </div>

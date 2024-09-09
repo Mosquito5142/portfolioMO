@@ -1,4 +1,4 @@
-// File: /Users/admin/Desktop/portfolioMO/src/app/[locale]/page.js
+// File: C:\Users\PC\Documents\GitHub\portfolioMO\src\app\[locale]\page.js
 import * as entry from '../../../../src/app/[locale]/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
