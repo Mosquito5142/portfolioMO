@@ -40,8 +40,8 @@ const ProjectsSection = (props) => {
       description: props.web4discription,
       image: "/images/projects/coffeeAPP.jpg",
       tag: ["All", "Web"],
-      gitUrl: "https://github.com/Mosquito5142/Blogreact",
-      previewUrl: "https://vachiravitblog-iota.vercel.app/",
+      gitUrl: "https://github.com/Mosquito5142/coffeeWebAPP",
+      previewUrl: "www.coffeewebapp.free.nf/index.php",
     }
   ];
 
